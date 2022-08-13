@@ -41,7 +41,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: adservice
+        image: srnbckr/adservice
         ports:
         - containerPort: 9555
         env:
